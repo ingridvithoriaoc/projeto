@@ -16,6 +16,23 @@ header {
 
 } 
 
+section#redes-sociais {
+    text-align:  center;
+}
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    padding: 0px 0px;
+    box-sizing: border-box;
+
+}
+
+section#redes-sociais img:hover {
+    
+    transform: translate(-3px, -3px);
+}
 
 .navbar {
     background: linear-gradient( 72deg,#fff,#4c90d5);
@@ -38,7 +55,7 @@ header {
 }
 
 .navbar a:hover { 
-    background-color: #ff22 ;
+    background-color: rgba(247, 247, 245, 0.133) ;
 }
 
 .content-title{
